@@ -9,11 +9,11 @@ figure out fixation/saccades and moving orientations
 # Pseudocode for the I-DT algorithm from the paper (Salvucci & Goldberg, 2000)
 
 # While there are still points
-  Initialize window over first points to cover the duration threshold
-  If dispersion of window points <= threshold
-    Add additional points to the window until dispersion > threshold
-    Note a fixation at the centeroid of the window points
-    Remove window points from points
-  Else 
-    Remove first point from points
-Return Fixations
+# Initialize window over first points to cover the duration threshold
+# If dispersion of window points <= threshold
+#    Add additional points to the window until dispersion > threshold
+#    Note a fixation at the centeroid of the window points
+#    Remove window points from points
+# Else 
+#    Remove first point from points
+# Return Fixations
