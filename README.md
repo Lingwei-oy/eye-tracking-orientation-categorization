@@ -2,7 +2,8 @@
 figure out fixation/saccades and moving orientations
 
 The experiment used head-free method, thus the visual angle can't be calculated
-Initially the velocity-based method is used to differentiate saccade/fixation, the threshold is selected based on exploratory analysis
+Initially the velocity-based method is used to differentiate saccade/fixation, the threshold (80 percentile of absolute distance moved within each time interval) is selected based on exploratory analysis.
+
 The method I am currently developing is based on Dispersion-Threshold Identification (I-DT) method (Salvucci & Goldberg, 2000)
 It needs two parameters, a minimum duration threshold between 100-200 ms and a dispersion threshold which is estimated based on exploratory analysis
 
