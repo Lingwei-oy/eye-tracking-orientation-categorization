@@ -69,7 +69,7 @@ qqline(d, col = 2)
 # return 20% quantile of collector
 
 
-q <- quantile(collector$distance,0.75, na.rm = T) 
+q <- quantile(collector$distance,0.8, na.rm = T) 
 
 
 # label saccades/drift and fixation
