@@ -1,3 +1,4 @@
+# This file is used to output mean of each condition
 output <- c()
 # s=0
 colnames(output) <- c('subject', 'MEDIA_ID', 'H', 'V', 'D', 'F')
