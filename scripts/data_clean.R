@@ -41,7 +41,7 @@ for (i in 1:length(filenames)){
     
 }
 
-# return 10%, 15%, 20%, 25% quantile of collector
+# return 90%, 85%, 80%, 75% quantile of collector
 
 quantile <- list(c(0.05, 0.95), c(0.075, 0.925), c(0.1, 0.9), c(0.125, 0.875))
 quantile.x <- sapply(quantile, function(x) quantile(collector$DIFF_X, x, na.rm = T)) 
